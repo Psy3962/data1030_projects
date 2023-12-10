@@ -1,8 +1,10 @@
-Introducting
+Introduction
 
 The economic value of machine learning has been extensively explored, with large companies leveraging its capabilities for predicting preferences, generating suggestions, and classifying customers. However, the application of machine learning techniques to generate income for individuals remained an elusive concept. This paper aims to explore the potential of machine learning for individual benefit by focusing on stock price prediction.
+
 This project specifically investigates the prediction of Twitter's daily high price using various machine learning techniques, posing a typical regression problem. While data regarding Twitter's stock price is available on Investing.com, the author obtained the dataset from Kaggle. This dataset comprises date and various price measurements for each date (including close price, open price, high price, and low price).
+
 Several studies have examined the effectiveness of machine learning techniques for predicting stock prices. Islam et al. (2020) compared the performance of different models, including Elastic Net, SVM, Random Forest, and XGBoost, for predicting stock prices in Bangladesh. Their findings identified XGBoost as the most accurate model, followed by Random Forest and SVM. Baviskar et al. (2019) proposed a hybrid model combining SVM and Random Forest for predicting stock market trends, achieving an accuracy of 75%, exceeding the performance of individual models. Additionally, Boonlert et al. (2022) investigated the efficacy of Random Forest and XGBoost for predicting stock movements in Thailand, incorporating technical indicators and Google Trend searches. Both models proved effective, with XGBoost exhibiting slightly superior performance in terms of annualized return. These studies highlight the potential of machine learning for stock price prediction and suggest that specific models can offer significant accuracy improvements over traditional approaches.
 
-set up: 
+Set up: 
 see project.yaml to set up your enviroment to reproduct the result of code
